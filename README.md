@@ -1,4 +1,4 @@
-![Logo](Image/logo.jpg) # MbaGCN
+<img src="https://github.com/hexin5515/MbaGCN/blob/main/Image/logo.png" alt="Logo" width="20" height="20"> # MbaGCN
 
 This is the official implementation of the following paper:
 
