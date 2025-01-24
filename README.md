@@ -1,6 +1,6 @@
 <div style="display: flex; align-items: center;">
     <img src="https://github.com/hexin5515/MbaGCN/blob/main/Image/logo.jpg" alt="Logo" width="40" height="40" style="margin-right: 10px;">
-    <span style="font-size: 96px; font-weight: bold;">MbaGCN</span>
+    <h1 style="display:inline; font-size:48px; font-weight:bold;">MbaGCN</h1>
 </div>
 
 This is the official implementation of the following paper:
