@@ -18,16 +18,11 @@ Mamba-Based Graph Convolutional Networks: Tackling Over-smoothing with Selective
 
 ## Quick Start
 
-**Cora**
+**Actor Dataset**
 
 The main experiments:
 ```
-python benchmark/mymain.py 
+cd NodeClassification/
 
-OR
-
-cp ./benchmark/Source/GOOD-D.sh .
-
-bash GOOD-D.sh
+python training.py --dataset Actor --lr 0.001 --Stat_lr 0.01 --mamba_dropout 0.6 --weight_decay 5e-3 --d_model 64 --d_inner 64 --dt_rank 4 --d_state 4 --bias True --layer_num 10 --net GCN_mamba_Net_New
 ```
-The near-far OOD detection experiments:
