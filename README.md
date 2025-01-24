@@ -1,4 +1,4 @@
-# MbaGCN
+![Logo](Image/logo.jpg) # MbaGCN
 
 This is the official implementation of the following paper:
 
