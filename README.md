@@ -1,7 +1,5 @@
-<div style="display: flex; align-items: center;">
-    <img src="https://github.com/hexin5515/MbaGCN/blob/main/Image/logo.jpg" alt="Logo" width="40" height="40" style="margin-right: 10px;">
-    <span style="font-size: 36px; font-weight: bold;">MbaGCN</span>
-</div>
+<img src="https://github.com/hexin5515/MbaGCN/blob/main/Image/logo.jpg" alt="Logo" width="40" height="40" style="margin-right: 10px;"> <span style="font-size: 36px; font-weight: bold;">MbaGCN</span>
+
 
 This is the official implementation of the following paper:
 
