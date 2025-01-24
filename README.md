@@ -15,3 +15,19 @@ Mamba-Based Graph Convolutional Networks: Tackling Over-smoothing with Selective
 * networkx>=2.7
 * rdkit>=2024.3.2
 * dgl>=2.1.0
+
+## Quick Start
+
+**Cora**
+
+The main experiments:
+```
+python benchmark/mymain.py 
+
+OR
+
+cp ./benchmark/Source/GOOD-D.sh .
+
+bash GOOD-D.sh
+```
+The near-far OOD detection experiments:
