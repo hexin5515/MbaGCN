@@ -1,4 +1,4 @@
-<img src="https://github.com/hexin5515/MbaGCN/blob/main/Image/logo.jpg" alt="Logo" width="40" height="40" style="margin-right: 10px;"> <span style="font-size: 60px; font-weight: bold;">MbaGCN</span>
+<img src="https://github.com/hexin5515/MbaGCN/blob/main/Image/logo.jpg" alt="Logo" width="40" height="40" style="margin-right: 10px;"> <span style="font-size: 60px;">MbaGCN</span>
 
 
 This is the official implementation of the following paper:
