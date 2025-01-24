@@ -6,8 +6,6 @@ Mamba-Based Graph Convolutional Networks: Tackling Over-smoothing with Selective
 
 ## Environment Setup
 
-Before you begin, ensure that you have Anaconda or Miniconda installed on your system. This guide assumes that you have a CUDA-enabled GPU.
-
 **Required Dependencies** :
 
 * torch>=2.1.2
