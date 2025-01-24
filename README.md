@@ -13,5 +13,5 @@ Mamba-Based Graph Convolutional Networks: Tackling Over-smoothing with Selective
 * python>=3.8
 * scikit-learn>=1.4.1
 * networkx>=2.7
-* rdkit>=2023.3.1
+* rdkit>=2024.3.2
 * dgl>=2.1.0
