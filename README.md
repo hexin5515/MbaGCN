@@ -5,7 +5,7 @@ This is the official implementation of the following paper:
 Mamba-Based Graph Convolutional Networks: Tackling Over-smoothing with Selective State Space
 
 <div align="center">
-  <img src="https://github.com/hexin5515/MbaGCN/blob/main/Image/MbaGCN.jpg" width="900px"/>
+  <img src="https://github.com/hexin5515/MbaGCN/blob/main/Image/MbaGCN.jpg" width="1200px"/>
 </div>
 
 ## Environment Setup
