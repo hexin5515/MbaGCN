@@ -4,6 +4,10 @@ This is the official implementation of the following paper:
 
 Mamba-Based Graph Convolutional Networks: Tackling Over-smoothing with Selective State Space
 
+<div align="center">
+  <img src="https://raw.githubusercontent.com/UB-GOLD/UB-GOLD/main/Image/UBGOLD.jpg" width="900px"/>
+</div>
+
 ## Environment Setup
 
 **Required Dependencies** :
