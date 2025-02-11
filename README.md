@@ -5,7 +5,7 @@ This is the official implementation of the following paper:
 Graph Defense Diffusion Model
 
 <div align="center">
-  <img src="https://github.com/hexin5515/GDDM/blob/main/Image/MbaGCN.jpg" width="1600px"/>
+  <img src="https://github.com/hexin5515/GDDM/blob/main/Image/GDDM.jpg" width="1600px"/>
 </div>
 
 ## Environment Setup
