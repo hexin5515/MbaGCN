@@ -2,10 +2,10 @@
 
 This is the official implementation of the following paper:
 
-Mamba-Based Graph Convolutional Networks: Tackling Over-smoothing with Selective State Space
+Graph Defense Diffusion Model
 
 <div align="center">
-  <img src="https://github.com/hexin5515/MbaGCN/blob/main/Image/MbaGCN.jpg" width="1600px"/>
+  <img src="https://github.com/hexin5515/GDDM/blob/main/Image/MbaGCN.jpg" width="1600px"/>
 </div>
 
 ## Environment Setup
