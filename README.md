@@ -15,8 +15,6 @@ Mamba-Based Graph Convolutional Networks: Tackling Over-smoothing with Selective
 * torch>=2.1.2
 * torch_geometric>=2.5.2
 * python>=3.8
-* scikit-learn>=1.4.1
-* einops>=0.8.0
 * scipy>=1.12.0
 * numpy>=1.23.5
 
