@@ -2,7 +2,9 @@
 
 This is the official implementation of the following paper:
 
-Mamba-Based Graph Convolutional Networks: Tackling Over-smoothing with Selective State Space
+> [Mamba-Based Graph Convolutional Networks: Tackling Over-smoothing with Selective State Space](https://arxiv.org/abs/2501.15461)
+> 
+> Accepted by IJCAI 2025
 
 <div align="center">
   <img src="https://github.com/hexin5515/MbaGCN/blob/main/Image/MbaGCN.jpg" width="1600px"/>
