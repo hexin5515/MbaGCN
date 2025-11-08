@@ -181,7 +181,7 @@ if __name__ == '__main__':
                         default='Cora')
     parser.add_argument('--device', type=int, default=2, help='GPU device.')
     parser.add_argument('--runs', type=int, default=10, help='number of runs.')
-    parser.add_argument('--net', type=str, choices=['SSGC_Net', 'SGC_Net', 'GCNII', 'GCN_mamba_Net_New', 'GCN', 'GAT', 'APPNP', 'GPRGNN', 'MLP'], default='GCN_mamba_Net_New')
+    parser.add_argument('--net', type=str, choices=['SSGC_Net', 'SGC_Net', 'GCNII', 'GCN_mamba_Net', 'GCN', 'GAT', 'APPNP', 'GPRGNN', 'MLP'], default='GCN_mamba_Net')
 
     # parameters for MbaGCN
     parser.add_argument('--d_model', type=int, default=64, help='hidden units.')
@@ -255,8 +255,8 @@ if __name__ == '__main__':
             Net = SGC_Net
         elif gnn_name == 'SSGC_Net':
             Net = SGC_Net
-        elif gnn_name =='GCN_mamba_Net_New':
-            Net = GCN_mamba_Net_New
+        elif gnn_name =='GCN_mamba_Net':
+            Net = GCN_mamba_Net
 
 
         test_acc, best_val_acc, theta_0, time_run,tmp_net = RunExp(args, dataset, data, Net, RP, val_lb)
