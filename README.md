@@ -30,3 +30,14 @@ cd NodeClassification/
 
 python training.py --dataset Actor --lr 0.001 --Stat_lr 0.01 --mamba_dropout 0.6 --weight_decay 5e-3 --d_model 64 --d_inner 64 --dt_rank 4 --d_state 4 --bias True --layer_num 11 --net GCN_mamba_Net
 ```
+
+## Citation
+If you find our repository useful for your research, please consider citing our paper:
+```
+@article{he2025mamba,
+  title={Mamba-based graph convolutional networks: Tackling over-smoothing with selective state space},
+  author={He, Xin and Wang, Yili and Fan, Wenqi and Shen, Xu and Juan, Xin and Miao, Rui and Wang, Xin},
+  journal={arXiv preprint arXiv:2501.15461},
+  year={2025}
+}
+```
