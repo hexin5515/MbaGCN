@@ -374,9 +374,9 @@ class GCN_mamba_liner(torch.nn.Module):
                + str(self.in_features) + ' -> ' \
                + str(self.out_features) + ')'
     
-class GCN_mamba_Net_New(torch.nn.Module):
+class GCN_mamba_Net(torch.nn.Module):
     def __init__(self, dataset, args):
-        super(GCN_mamba_Net_New, self).__init__()
+        super(GCN_mamba_Net, self).__init__()
         self.dropout = args.mamba_dropout
         self.args = args
         self.lin1 = GCN_mamba_liner(dataset.num_features, args.d_model, with_bias=args.bias)
@@ -421,9 +421,9 @@ class GCN_mamba_Net_New(torch.nn.Module):
         mx = mx @ r_mat_inv
         return mx
     
-class GCN_mamba_block_New(torch.nn.Module):
+class GCN_mamba_block(torch.nn.Module):
     def __init__(self, args):
-        super(GCN_mamba_block_New, self).__init__()
+        super(GCN_mamba_block, self).__init__()
         self.args = args
         self.in_proj = GCN_mamba_liner(args.d_model, args.d_inner * 2, with_bias=args.bias)
         self.x_proj = GCN_mamba_liner(args.d_inner, args.dt_rank + args.d_state * 2, with_bias=args.bias)
