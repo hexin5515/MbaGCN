@@ -35,10 +35,18 @@ Note: The dataset will be automatically downloaded when the code is executed
 ## Citation
 If you find our repository useful for your research, please consider citing our paper:
 ```
-@article{he2025mamba,
-  title={Mamba-based graph convolutional networks: Tackling over-smoothing with selective state space},
-  author={He, Xin and Wang, Yili and Fan, Wenqi and Shen, Xu and Juan, Xin and Miao, Rui and Wang, Xin},
-  journal={arXiv preprint arXiv:2501.15461},
-  year={2025}
+@inproceedings{ijcai2025p595,
+  title     = {Mamba-Based Graph Convolutional Networks: Tackling Over-smoothing with Selective State Space},
+  author    = {He, Xin and Wang, Yili and Fan, Wenqi and Shen, Xu and Juan, Xin and Miao, Rui and Wang, Xin},
+  booktitle = {Proceedings of the Thirty-Fourth International Joint Conference on
+               Artificial Intelligence, {IJCAI-25}},
+  publisher = {International Joint Conferences on Artificial Intelligence Organization},
+  editor    = {James Kwok},
+  pages     = {5345--5353},
+  year      = {2025},
+  month     = {8},
+  note      = {Main Track},
+  doi       = {10.24963/ijcai.2025/595},
+  url       = {https://doi.org/10.24963/ijcai.2025/595},
 }
 ```
