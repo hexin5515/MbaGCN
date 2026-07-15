@@ -1,0 +1,33 @@
+#MbaGCN
+Cora layer_num 3 lr 0.02 Stat_lr 0.1 mamba_dropout 0.8 d_model 64 d_inner 64 dt_rank 32 d_state 32 bias False weight_decay 5e-3 0.01
+Cora layer_num 5 lr 0.02 Stat_lr 0.1 mamba_dropout 0.8 d_model 64 d_inner 64 dt_rank 16 d_state 16 bias False weight_decay 5e-3 0.01
+Cora layer_num 9 lr 0.02 Stat_lr 0.1 mamba_dropout 0.8 d_model 64 d_inner 64 dt_rank 32 d_state 32 bias False weight_decay 5e-3 0.01
+
+Citeseer layer_num 3 lr 0.01 Stat_lr 0.05 mamba_dropout 0.8 d_model 64 d_inner 64 dt_rank 16 d_state 16 bias False weight_decay 5e-3 0.01
+Citeseer layer_num 5 lr 0.01 Stat_lr 0.05 mamba_dropout 0.8 d_model 64 d_inner 64 dt_rank 16 d_state 16 bias False weight_decay 5e-3 0.01
+Citeseer layer_num 9 lr 0.01 Stat_lr 0.05 mamba_dropout 0.8 d_model 64 d_inner 64 dt_rank 8 d_state 8 bias False weight_decay 5e-3 0.01
+
+Pubmed layer_num 3 lr 0.01 Stat_lr 0.05 mamba_dropout 0.8 d_model 64 d_inner 64 dt_rank 8 d_state 8 bias True weight_decay 5e-3 0.01
+Pubmed layer_num 5 lr 0.01 Stat_lr 0.05 mamba_dropout 0.8 d_model 64 d_inner 64 dt_rank 8 d_state 8 bias True weight_decay 5e-3 0.01
+Pubmed layer_num 9 lr 0.01 Stat_lr 0.05 mamba_dropout 0.8 d_model 64 d_inner 64 dt_rank 4 d_state 4 bias True weight_decay 5e-3 0.01
+
+Computers layer_num 3 lr 0.01 Stat_lr 0.05 mamba_dropout 0.6 d_model 64 d_inner 64 dt_rank 16 d_state 16 bias False weight_decay 5e-3 0.01
+Computers layer_num 5 lr 0.01 Stat_lr 0.05 mamba_dropout 0.6 d_model 64 d_inner 64 dt_rank 16 d_state 16 bias False weight_decay 5e-3 0.01
+Computers layer_num 9 lr 0.01 Stat_lr 0.05 mamba_dropout 0.6 d_model 64 d_inner 64 dt_rank 16 d_state 16 bias False weight_decay 5e-3 0.01
+
+Photo layer_num 3 lr 0.005 Stat_lr 0.005 mamba_dropout 0.5 d_model 64 d_inner 64 dt_rank 32 d_state 32 bias False weight_decay 5e-3 0.01
+Photo layer_num 5 lr 0.005 Stat_lr 0.005 mamba_dropout 0.5 d_model 64 d_inner 64 dt_rank 32 d_state 32 bias False weight_decay 5e-3 0.01
+Photo layer_num 9 lr 0.005 Stat_lr 0.005 mamba_dropout 0.5 d_model 64 d_inner 64 dt_rank 32 d_state 32 bias False weight_decay 5e-3 0.01
+
+Actor --layer_num 3 python training.py --dataset Actor --lr 0.001 --Stat_lr 0.1 --mamba_dropout 0.6 --weight_decay 5e-3 --net GCN_mamba_Net_New 64 16 --bias True
+Actor --layer_num 5 python training.py --dataset Actor --lr 0.001 --Stat_lr 0.1 --mamba_dropout 0.6 --weight_decay 5e-3 --net GCN_mamba_Net_New 64 16 --bias True
+Actor --layer_num 7 python training.py --dataset Actor --lr 0.001 --Stat_lr 0.1 --mamba_dropout 0.6 --weight_decay 5e-3 --net GCN_mamba_Net_New 64 4 --bias True
+Actor --layer_num 9 python training.py --dataset Actor --lr 0.001 --Stat_lr 0.1 --mamba_dropout 0.6 --weight_decay 1e-2 --net GCN_mamba_Net_New 64 4 --bias True
+Actor --layer_num 11 python training.py --dataset Actor --lr 0.001 --Stat_lr 0.1 --mamba_dropout 0.6 --weight_decay 1e-2 --net GCN_mamba_Net_New 64 4 --bias True
+
+Wisconsin --layer_num 3 python training.py --dataset Wisconsin --lr 0.01 --Stat_lr 0.05 --mamba_dropout 0.8 --weight_decay 5e-3 --net GCN_mamba_Net_New 64 16 --bias False
+Wisconsin --layer_num 5 python training.py --dataset Wisconsin --lr 0.01 --Stat_lr 0.05 --mamba_dropout 0.8 --weight_decay 5e-3 --net GCN_mamba_Net_New 64 16 --bias False
+Wisconsin --layer_num 7 python training.py --dataset Wisconsin --lr 0.01 --Stat_lr 0.05 --mamba_dropout 0.8 --weight_decay 5e-3 --net GCN_mamba_Net_New 64 16 --bias False
+Wisconsin --layer_num 9 python training.py --dataset Wisconsin --lr 0.01 --Stat_lr 0.05 --mamba_dropout 0.8 --weight_decay 5e-3 --net GCN_mamba_Net_New 64 16 --bias False
+Wisconsin --layer_num 11 python training.py --dataset Wisconsin --lr 0.01 --Stat_lr 0.05 --mamba_dropout 0.8 --weight_decay 5e-3 --net GCN_mamba_Net_New 64 16 --bias False
+
